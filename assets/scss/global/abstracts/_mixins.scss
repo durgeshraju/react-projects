@@ -1,0 +1,38 @@
+// Core mixin 
+//---------------------------------
+
+
+// border-radius 
+//---------------------------------
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+}
+
+// appearance 
+//---------------------------------
+
+@mixin appearance ($value) {
+    -webkit-appearance: $value;
+    -moz-appearance: $value;
+    appearance: $value;
+}
+
+// Font Family
+@mixin font-family($elem) {
+    font-family: unquote(get-font-family($elem));
+}
+
+// Font-size + Line-height + Kerning
+@mixin font-size($elem) {
+    font-size: get-font-size($elem);
+    line-height: get-line-height($elem);
+    letter-spacing: get-kerning($elem);
+}
+
+// Font Weight
+@mixin font-weight($elem) {
+    font-weight: get-font-weight($elem);
+}

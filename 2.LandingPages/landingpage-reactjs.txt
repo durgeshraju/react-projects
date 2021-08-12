@@ -1,0 +1,13 @@
+Inspirational folder structure and setup
+
+I like sass, react components plus folder structure 
+
+https://github.com/cruip/open-react-template
+
+
+Landing page templates 
+
+- I like the data serving through JSON
+
+https://github.com/Adrinlol/landy-react-template
+https://github.com/issaafalkattan/React-Landing-Page-Template

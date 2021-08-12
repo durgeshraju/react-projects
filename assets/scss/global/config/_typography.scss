@@ -1,0 +1,54 @@
+// Typography rules
+//---------------------------------
+
+$font--provider: 'Google Fonts';
+$font--import: 'Roboto:400,500,600,700,800';
+
+@if ($font--provider=='Google Fonts') {        
+    @import url('https://fonts.googleapis.com/css2?family=#{$font--import}&display=swap');    
+}
+// The font set
+$font--family: (heading: null,
+    base: '"Roboto", sans-serif',
+    code: 'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
+    pre: '"Courier 10 Pitch", Courier, monospace'
+);
+
+// The typographic scale
+$font--scale: ( // key 		// font-size, line-height, kerning
+    XXXL: (52px, 62px, -0.3px),
+    XXL: (44px, 54px, -0.3px),
+    XL: (32px, 42px, -0.3px),
+    Large: (24px, 34px, -0.1px),
+    Medium: (20px, 30px, -0.1px),
+    Normal: (18px, 28px, -0.1px),
+    Base: (16px, 24px, -0.1px),
+    Small: (14px, 22px, null));
+
+// Base elements: font size
+$font--size: ( // ↓ Mobile 	// key in $font--scale
+    h1: 'XXXL',
+    h2: 'XXL',
+    h3: 'XL',
+    h4: 'Large',
+    h5: 'Medium',
+    h6: 'Normal',
+    xs: 'Base',
+    xxs: 'Small',
+);
+
+// Base elements: font weight
+$font--weight: (heading: 800,
+    base: 400,
+    strong: 700,
+    bquote: 600,
+    figcap: null,
+);
+
+
+//-- TODO
+
+html {
+    @include font-size(base);
+    @include font-family(base);
+}

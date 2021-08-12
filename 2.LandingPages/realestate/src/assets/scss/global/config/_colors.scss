@@ -1,0 +1,72 @@
+// Global color palette 🎨
+//---------------------------------
+
+$c-palette:(
+    //-- Primary color & weight
+   primary : (
+        Base : #006766,
+        p-800 : #008b90,
+        p-700: #009fa7,
+        p-600: #00b4c1,
+        p-500: #00c5d4,
+        p-400: #27ced8,
+        p-300: #4fd7df,
+        p-200: #82e3e7,
+        p-100: #b3eef0,
+        p-50: #e0f8f9
+    ),    
+    
+    //-- Secondary color & weight
+    secondary : (
+        Base : #DF4E00,
+        s-800 : #E86A00,
+        s-700: #EE7900,
+        s-600: #EE7900,
+        s-500: #F48900,
+        s-400: #F9A425,
+        s-300: #FAB44C,
+        s-200: #FBCA7F,
+        s-100: #FDDFB1,
+        s-50: #FEF2E0
+    ),
+    
+    //-- Grey color & weight
+
+    grey : (
+        Base : #0F1825,
+        g-800 : #192638,
+        g-700: #374253,
+        g-600: #596579,
+        g-500: #7B8698,
+        g-400: #A7AFBC,
+        g-300: #D0D7E2,
+        g-200: #E6EAF0,
+        g-100: #F7F9FC,
+        g-50: #FAFBFC
+    ),
+
+    //-- Base colors
+
+    white: (
+        Base: #ffffff
+    ),
+    
+    black: (
+        Base: #000000
+    ),
+
+    //-- Acent colors
+    info: (
+        Base: #56C568
+    ),
+
+    success: (
+        Base: #56C568
+    ),
+    error: (
+        Base: #EB5757
+    ),
+    warning: (
+        Base: #FFC400
+    )    
+);

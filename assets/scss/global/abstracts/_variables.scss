@@ -1,0 +1,14 @@
+
+// Global Variables
+//---------------------------------
+
+// Body
+
+$body-bg-clr : set-color(primary, p-800) !default;
+
+body{
+    background-color:$body-bg-clr;
+}
+
+// Button
+$btn-primary-bg-color: set-color(secondary, Base);

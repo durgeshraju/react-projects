@@ -1,0 +1,58 @@
+// global btn 
+//---------------------------------
+
+.btn {
+    outline:none;
+    border: none;
+    @include border-radius(10px);
+    @include appearance(none);
+    @include font-size(xs);
+    @include font-family(base);
+    @include font-weight(base);
+    padding: 0 8px 0 8px;
+    &:active {
+        outline: 0;
+    }
+    &--primary {
+        background-color: $btn-primary-bg-color;
+        color: #f6fffe;
+
+        &:hover,
+        &:active {
+            background-color: #449593;
+        }
+
+        &.disabled {
+            background-color: #66686c;
+            cursor: pointer;
+        }
+    }
+}
+
+.btn--xl {
+    height: 30px;
+    min-width: 200px;
+}
+
+.btn--lg{
+    height:40px;
+    min-width: 150px;
+}
+
+.btn--md {
+    height: 35px;
+    min-width: 120px;
+}
+
+.btn--sm {
+    height: 30px;
+    min-width: 70px;
+}
+
+.button-block {
+    display: flex;
+    width: 100%;
+}
+
+// Primary button
+
