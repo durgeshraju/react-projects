@@ -1,13 +1,13 @@
 import { Fragment } from "react";
-import Button from "./sharedUI/Button";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import HeroUnitBlock from "./components/HeroUnitBlock/HeroUnitBlock";
 
 function App() {
   return (
-    <Fragment>
-      <Button />
+    <Fragment>      
       <Header />
+      <HeroUnitBlock />
       <Footer />
     </Fragment>
   );
