@@ -8,5 +8,107 @@
         "description": "Defective earplugs caused veterans' hearing problems. Were you issued 3M earplugs during service? Find out if you have a claim at no cost."
       }
     ]
+  },
+  "middleBlockLeftCol":{
+    "title": "At A Glance",
+    "blockOne":[
+        {
+          "title": "This Alert Effects",
+          "description": "Defective earplugs caused veterans' hearing problems. Were you issued 3M earplugs during service? Find out if you have a claim at no cost."
+        }
+      ],
+    "blockTwo":[
+        {
+        "title": "What's Going On?",
+          "description": "Defense contractor 3M Company settled a False Claims Act lawsuit in July that alleged the dual-ended Combat Arms Earplugs it supplied to the military between 2003 and 2015 were defective and caused many service members to suffer hearing loss."
+          }
+      ],
+
+    "blockThree":[
+          {
+            "title": "How Can a Lawsuit Help?",
+            "description": "A lawsuit could award money to affected individuals for medical bills. pain and suffering, and other damages they've suffered from using the allegedly defective earplugs."          
+          }
+      ],
+        
+    "blockFour":[
+        {
+          "title": "What Can I Do?",
+          "description": "Fill out the form on this page and tell us what happened. One of the attorneys we work with may contact you directly and can help explain your rights."  
+        }
+      ],
+    "blockFive":[
+        {
+          "title": "Is this a Class Action?",
+          "description": "No. You will need to speak to an attorney to file your own lawsuit specific to your experience and injuries. You can find out more about the process by contacting us through the form on this page."  
+        }
+      ]             
+  },
+  "middleBlockRightCol":{
+    "widgetOne":[
+        {          
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "moreInfo": "Read More"
+        }
+      ],
+    "widgetTwo":[
+        {
+        "title": "CombatArmsEarPlugsLawsuit.com",
+        "ctaCallNowText": "Call Now to Schedule",
+        "ctaCallNowtel": "(888)-881-7330",
+        "ctaBtmSubtext": "Interview with Verteran Legal",
+        "ctaBtmHighlightText": "Today!"
+       }
+      ]             
+  },
+  "ceplWhyChoose":{
+    "title": "Why Choose Combat Arms Earplugs Lawsuit?",
+    "experienceWidget":[
+        {
+          "title": "Years of experience",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+    "familySplealitiesWidget":[
+        {
+        "title": "Family law specialities",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+      ],
+
+    "caseSettleWidget":[
+          {
+            "title": "Cases settled",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."          
+          }
+      ],
+        
+    "percentageWinsWidget":[
+        {
+          "title": "Percentage of wins",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+        }
+      ]            
+  },
+"ceplContactInfo":{    
+    "consulationContactInfo":[
+        {
+          "phoneNum": "1-800-644-541",
+          "description": "Call our Family Lawyer today, and have a Free Consultation."
+        }
+      ],
+    "consulationSpecialities":[
+        {
+        "title": "Your search for the best family lawyers ends here",
+        "freeConsult": "Free Consultation",
+        "feeBackGurantee": "No Win, No Fee guaranteed",
+        "freeAppraisal": "Free Case Appraisal"
+        }
+      ]        
+  },
+
+"ceplTermsConditionsBlock": {
+    "copyrightText": "Copyright 2019 Compbat Ear Plugs Lawsuit",
+    "privacyPolicyLinkText": "Privacy Policy"
   }
 }
