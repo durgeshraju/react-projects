@@ -40,3 +40,32 @@
     left: 0;
     z-index: 1030;
 }
+
+/*--------------------------------------------------------------
+# Header Phone Information Section
+--------------------------------------------------------------*/
+
+.h-phone-wrapper {
+    position: relative;    
+    color: #383838;    
+    padding-left: 40px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.h-phone-wrapper span {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.h-phone-wrapper i {
+    display: inline-block;
+    position: absolute;
+    font-size: 32px;
+    left: 0;
+    top: 12px;
+}
