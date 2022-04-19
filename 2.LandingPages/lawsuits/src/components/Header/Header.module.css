@@ -46,11 +46,12 @@
 --------------------------------------------------------------*/
 
 .h-phone-wrapper {
-    position: relative;    
-    color: #383838;    
+    position: relative;
+    color: #393939;
     padding-left: 40px;
-    font-size: 18px;
+    font-size: 1.5rem;
     padding-top: 20px;
+    font-weight: 600;
 }
 
 .h-phone-wrapper span {
@@ -58,14 +59,16 @@
     position: absolute;
     left: 40px;
     top: 0;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
+    color: #878787;
 }
 
 .h-phone-wrapper i {
     display: inline-block;
     position: absolute;
-    font-size: 32px;
+    font-size: 30px;
     left: 0;
-    top: 12px;
+    top: 20px;
+    color: #df7c27;
 }
