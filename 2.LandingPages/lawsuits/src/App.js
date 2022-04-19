@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from "react";
-import { Fragment } from "react";
+import React, {useEffect, useState, Fragment} from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import HeroUnitBlock from "./components/HeroUnitBlock/HeroUnitBlock";
