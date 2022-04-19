@@ -1,14 +1,26 @@
 import React, {Fragment} from "react";
+import classes from './LeftContentBlock.module.css';
 const LeftContentBlock = props => {
     return(
         <Fragment>                        
             {props.data
               ? props.data.primaryContentWidget.map((d, i) => (
                 <Fragment key={i}>
-                <h1 className="display-5 fw-bolder text-white mb-2">{d.title}</h1>
+                <div className={classes.herounitPrimaryContentSection}>
+                <h1 className="display-6 fw-bolder mb-2">{d.title}</h1>        
+                <p className="lead fw-bold text-white mb-5">{d.description}</p>      
+                </div>            
                 </Fragment>                    
-                )) : "loading"
-            }         
+                )) : "loading"                
+            }  
+            {props.data
+              ? props.data.secondaryContentWidget.map((d, i) => (
+                <Fragment key={i}>
+                <h2 className="fw-bolder mb-2">{d.title}</h2>        
+                <p className="lead fw-bold text-white mb-5">{d.description}</p>                  
+                </Fragment>                    
+                )) : "loading"                
+            }    
         </Fragment>
     )
 };
