@@ -1,0 +1,17 @@
+{  "ceplHeroUnitContent": {
+    "title": "Testing HeroUnit Content",
+    "primaryContentWidget": [
+      {
+        "title": "Hurt by a Dangerous Drug or Defective Medical Device ?",
+        "description": "Going through a Family Crisis? Get the care and more money you are entitled to."
+      }
+    ],
+    "secondaryContentWidget": [
+      {
+        "title": "Don't let the situation get worse.",
+        "description": "Call our Family Lawyers today, and have a Free Consultation",
+        "phone": "1-800-644-541"
+      }
+    ]
+  }
+}
