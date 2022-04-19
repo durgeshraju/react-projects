@@ -10,13 +10,11 @@ const [landingPageData, setLandingPageData] = useState({});
 useEffect(() => {
 setLandingPageData(JsonData);
 }, []);
-console.log(landingPageData.ceplHeader);
+//console.log(landingPageData.ceplHeader);
   return (
     <Fragment>      
-      <Header data={landingPageData.ceplHeader} />
-      {/*<Header data={landingPageData.ceplFeatures} />*/}
-      <HeroUnitBlock  />
-      {/*<Footer data={landingPageData.ceplTermsConditionsBlock} />*/}
+      <Header data={landingPageData.ceplHeader} />      
+      <HeroUnitBlock />      
     </Fragment>
   );
 }
