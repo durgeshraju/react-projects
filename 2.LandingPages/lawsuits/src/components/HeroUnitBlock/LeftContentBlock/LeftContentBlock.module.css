@@ -1,3 +1,12 @@
-.herounitPrimaryContentSection h1{
+.herounitPrimaryContentSection h1, .herounitSecondaryContentSection h2{
     color: #f2c58c;
+}
+.herounitSecondaryContentSection > h3{
+font-family: 'Mulish', sans-serif;
+font-weight: 600;
+color: #ffffff;
+}
+.herounitSecondaryContentSection > h3 a{    
+    color: #ffffff;
+    text-decoration: none;
 }
