@@ -1,0 +1,7 @@
+.main-heading-wrapper h3 > span{
+    font-family: 'Mulish', sans-serif;
+    display: block;
+    color: #f9a119;
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
