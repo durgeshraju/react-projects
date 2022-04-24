@@ -7,8 +7,8 @@ const LeftContentBlock = props => {
               ? props.data.primaryContentWidget.map((d, i) => (
                 <Fragment key={i}>
                 <div className={classes.herounitPrimaryContentSection}>
-                <h1 className="display-6 fw-bolder mb-2">{d.title}</h1>        
-                <p className="lead text-white mb-5">{d.description}</p>      
+                <h1 className="fw-bolder mb-3">{d.title}</h1>        
+                <p className="lead text-white mb-5 fs-5">{d.description}</p>      
                 </div>            
                 </Fragment>                    
                 )) : "loading"                
