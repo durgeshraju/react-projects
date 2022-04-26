@@ -7,7 +7,7 @@
 }
 .cardWrapper::after {
     position: absolute;
-    left: -5%;
+    left: -3%;
     top: 4%;
     content: "";
     height: 100%;
@@ -32,23 +32,4 @@
 }
 .cardWrapper .heading {
     margin-bottom: 30px;
-}
-.cardWrapper input,
-.cardWrapper .nice-select {
-    border: none;
-    border-radius: inherit;
-    box-shadow: inherit;
-    background: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid #e6e6e6;
-    padding-left: 0;
-}
-.cardWrapper button {
-    background: #0554f2;
-    padding: 13px 25px;
-    border-radius: 30px;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 10px;
-    width: 100%;
-    border: none;
 }
