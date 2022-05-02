@@ -12,7 +12,7 @@ setLandingPageData(HeroUnitData);
 }, []);
     return(        
     <section className={classes['herounit-wrapper']}>   
-        <div className="container px-5 py-5">
+        <div className="container px-2 py-5">
             <div className="row gx-5 justify-content-center">
                 <div className="col-lg-8 col-xl-8 col-xxl-8">
                     <div className="my-3 text-center text-xl-start">                    
