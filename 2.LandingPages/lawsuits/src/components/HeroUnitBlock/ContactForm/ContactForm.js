@@ -2,7 +2,8 @@ import React, {Fragment, useState} from 'react';
 import classes from './ContactForm.module.css'
 import InputField from '../../../sharedUI/InputField';
 
-const ContactForm = props => {    
+const ContactForm = props => {  
+  const [isDisabled, setDisabled] = useState(false);
   const [values, setValues] = useState({
     username: "",
     email: "",
@@ -49,7 +50,8 @@ const ContactForm = props => {
   };
 
    const onChangeHandler = (e) =>{    
-    setValues({ ...values, [e.target.name]: e.target.value});    
+    setValues({ ...values, [e.target.name]: e.target.value});
+    setDisabled(e.target.value.length >= 1);
    }
 
     return(   
@@ -67,7 +69,7 @@ const ContactForm = props => {
             /></Fragment>
             )})}
             </div>            
-            <button type="submit" className="btn btn-lg btn-primary w-100 mt-1">Start Free Consultation</button>
+            <button type="submit" className="btn btn-lg btn-primary w-100 mt-1" disabled={!isDisabled}>Start Free Consultation</button>
         </div>
         </form>            
     )
