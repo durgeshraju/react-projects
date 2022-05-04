@@ -5,3 +5,12 @@
     font-size: 1.5rem;
     padding-bottom: 8px;
 }
+
+.formElemntsWrapper input{
+    font-size:14px;
+}
+.formElemntsWrapper label{
+    padding-bottom: 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
