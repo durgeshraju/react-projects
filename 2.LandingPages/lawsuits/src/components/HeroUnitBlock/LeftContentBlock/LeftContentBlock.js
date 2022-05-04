@@ -16,7 +16,7 @@ const LeftContentBlock = props => {
             {props.data
               ? props.data.secondaryContentWidget.map((d, i) => (
                 <Fragment key={i}>                
-                <div className={`${classes['herounitSecondaryContentSection']} my-5`}>                
+                <div className={`${classes['herounitSecondaryContentSection']} my-5 pt-3`}>                
                 <h2 className="fw-bolder mb-2">{d.title}</h2>        
                 <p className="lead text-white mb-3">{d.description}</p>   
                 <h3><span className="fs-4">Call Us: </span><a href="tel:+6494461709">{d.phone}</a></h3>  
