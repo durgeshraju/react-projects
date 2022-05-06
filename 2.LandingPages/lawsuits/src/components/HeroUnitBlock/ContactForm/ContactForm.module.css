@@ -14,3 +14,17 @@
     font-size: 13px;
     font-weight: 600;
 }
+
+.formElemntsWrapper span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+.formElemntsWrapper input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+.formElemntsWrapper input:invalid[focused="true"] ~ span{
+    display: block;
+}

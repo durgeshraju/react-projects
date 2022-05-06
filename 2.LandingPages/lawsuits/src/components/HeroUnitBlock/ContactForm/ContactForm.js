@@ -11,7 +11,7 @@ const ContactForm = props => {
     email: "",
     phone: "",    
     helpFiled: ""
-  });  
+  });    
   const userInput = [
     {
       id: 1,
@@ -30,6 +30,7 @@ const ContactForm = props => {
       type: "email",
       label: "Email Address",
       placeholder: "Email Address",
+      errorMessage: "It should be a valid email address!",
       required: true
     },
     {
@@ -53,12 +54,22 @@ const ContactForm = props => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitting(true);
+    setDisabled(false);
     setTimeout(() => {
-       setSubmitting(false);
-     },3000);   
+      setValues({
+        username: '',
+        email: '',
+        phone: '',
+        helpFiled: ''
+    });
+    },2000, setFocused(false));  
+    setTimeout(() => {
+       setSubmitting(false);      
+       setDisabled(true); 
+     },2000);      
   };
 
-   const onChangeHandler = (e) =>{    
+   const onChangeHandler = (e) =>{
     setValues({ ...values, [e.target.name]: e.target.value});
     setDisabled(e.target.value.length >= 1);
    }
@@ -67,7 +78,7 @@ const ContactForm = props => {
      setFocused(true);
    }
 
-    return(   
+    return(
         <form onSubmit={handleSubmit}>
         <div className= {classes['main-heading-wrapper']}>          
            <h3 className="fw-bold mb-0 pb-3"><span>Email now</span> for free legal advice</h3>   
@@ -83,7 +94,7 @@ const ContactForm = props => {
               onBlur={onFocusHandler}
               onFocus={() =>
                 input.name && setFocused(true)
-              }
+              }              
               focused={focused.toString()}
               className="form-control"
             /></Fragment>
