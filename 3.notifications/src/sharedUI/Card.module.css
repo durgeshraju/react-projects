@@ -1,0 +1,27 @@
+/*Notification card widget*/
+.card{
+    -webkit-box-shadow: 0 5px 15px 0 rgb(36 50 66 / 10%);
+    -moz-box-shadow: 0 5px 15px 0 rgb(36 50 66 / 10%);
+    box-shadow: 0 5px 15px 0 rgb(36 50 66 / 10%);
+    background: #fff;
+    color: #212021;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0;
+    position: relative;
+    outline: none;
+    width: 500px;
+    padding: 20px;
+}
+.cardBackdrop{
+    background: #E9EBFF;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    height: 150px;
+    transform: translate(-60%, 70%) rotate(0deg);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}

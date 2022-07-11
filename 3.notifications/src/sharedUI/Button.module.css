@@ -1,0 +1,35 @@
+.btnDefault {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .250rem .60rem;
+    font-size: 0.85rem;
+    border-radius: 1.5rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-right:15px;
+}
+
+
+/*Social Buttons*/
+
+.twitter:hover{
+    border:1px solid #32a5d6;
+    background-color: #32a5d6;
+    color: #ffffff !important;
+}
+
+.facebook:hover{
+    border:1px solid #3C67A2;
+    background-color: #4d76b0;
+    color: #ffffff !important;
+}
