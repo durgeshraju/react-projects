@@ -1,9 +1,38 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import classes from '../UI/Button.module.css'
 
-const Button = () => {
+const Button = ({
+    text, 
+    isDisabled, 
+    bgColor, 
+    textColor, 
+    brdColor, 
+    btnType
+}) => {
+
+const btnInlinestyles = {
+    backgroundColor: bgColor, 
+    color: textColor, 
+    border: `2px solid ${brdColor}`
+}
   return (
-    <div>Button</div>
+    <button className={classes.formButton} 
+    type={btnType}
+    disabled={isDisabled}
+    style={btnInlinestyles}
+    >
+    {text}
+    </button>
   )
 }
 
-export default Button
+export default Button;
+
+Button.defaultProps = {
+    text: 'Register'
+}
+
+Button.propTypes = {
+    text: PropTypes.string    
+}
