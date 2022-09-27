@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => {
+import classes from '../UI/Card.module.css'
+
+const Card = ({children}) => {
   return (
-    <div>Card</div>
+    <div className={classes.card}>{children}</div>
   )
 }
 
