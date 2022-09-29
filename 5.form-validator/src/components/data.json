@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "username",
+      "type": "text",
+      "placeholder": "Enter username",
+      "label": "Username"
+    },
+    {
+      "id": 2,
+      "name": "email",
+      "type": "email",
+      "placeholder": "Email",
+      "label": "Enter Email"
+    },
+    {
+      "id": 3,
+      "name": "password",
+      "type": "password",
+      "placeholder": "Enter Password",
+      "label": "Password"
+    },
+    {
+      "id": 4,
+      "name": "confirmPassword",
+      "type": "password",
+      "placeholder": "Confirm Password",
+      "label": "Password"
+    }
+]
