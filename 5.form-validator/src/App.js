@@ -1,22 +1,34 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Form  from './components/Form';
+import TextField from './UI/TextField';
+import Button from './UI/Button';
+import inputFiledData from './components/data.json';
+const App = () => {
+  const [values, setValues] = useState(
+  {
+    username: "",
+    email: "",
+    password: "",
+    confirmPassword: ""
+  });
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
+  }
+  const onChangeHandler = (event) => {
+    setValues({...values, [event.target.name]: event.target.value});
+    console.log(event.target.value);     
+  }  
+  return (    
+    <div className="container">
+      <Form  heading="Register With Us" formSubmit={onSubmitHandler}>      
+        {inputFiledData.map((input) =>{
+          return(          
+            <TextField key={input.id} {...input} value={values[input.name]} onChange={onChangeHandler}/>
+          )
+        })}         
+        <Button text="Submit" bgColor="#3498db" textColor="#ffffff" brdColor="#3498db" btnType="submit" isDisabled />
+      </Form>
     </div>
   );
 }
