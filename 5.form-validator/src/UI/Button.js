@@ -4,7 +4,7 @@ import classes from '../UI/Button.module.css'
 
 const Button = ({
     text, 
-    isDisabled, 
+    disabled, 
     bgColor, 
     textColor, 
     brdColor, 
@@ -19,7 +19,7 @@ const btnInlinestyles = {
   return (
     <button className={classes.formButton} 
     type={btnType}
-    disabled={isDisabled}
+    disabled={disabled}
     style={btnInlinestyles}
     >
     {text}

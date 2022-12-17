@@ -4,27 +4,32 @@
       "name": "username",
       "type": "text",
       "placeholder": "Enter username",
-      "label": "Username"
+      "label": "Username",  
+      "errorMessage": "Username should be 3-16 characters long special characters are not allowed",
+      "required": true
     },
     {
       "id": 2,
       "name": "email",
       "type": "email",
       "placeholder": "Email",
-      "label": "Enter Email"
+      "label": "Enter Email",
+      "required": true
     },
     {
       "id": 3,
       "name": "password",
       "type": "password",
       "placeholder": "Enter Password",
-      "label": "Password"
+      "label": "Password",
+      "required": true
     },
     {
       "id": 4,
       "name": "confirmPassword",
       "type": "password",
       "placeholder": "Confirm Password",
-      "label": "Password"
+      "label": "Password",
+      "required": true
     }
 ]
