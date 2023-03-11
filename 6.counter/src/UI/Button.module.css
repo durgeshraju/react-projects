@@ -17,3 +17,10 @@
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+.btn:disabled {
+    color: #ccc;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;    
+}

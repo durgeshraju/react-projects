@@ -3,11 +3,12 @@ import classes from '../UI/Button.module.css';
 
 const Button = ({
     text, 
-    click
+    click,
+    disabled
 }) => {
 
   return (
-    <button className={classes.btn} onClick={click}>
+    <button className={classes.btn} onClick={click} disabled={disabled}>
       {text}
     </button>
   )
